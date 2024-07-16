@@ -5,7 +5,7 @@ function power(num, pow) {
 var a = +prompt("Enter a number:");
 var b = +prompt("Enter power of the number:");
 var result = power(a, b);
-alert(a + "<sup>" + b + "</sup>" + "is " + result);
+document.write(a + "<sup>" + b + "</sup>" + "is " + result);
 
 
 // 2.
